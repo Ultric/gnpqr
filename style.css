@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+.words {
+    color: #ffd900;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px #111;
+    text-align: center;
+}
+
+.center-text {
+    vertical-align: middle;
+    line-height: 100vh;
+    z-index: 101;
+    color: #ffd900;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px #111;
+}
+
+#qr-video {
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    border-width: 5pt;
+    border-color: #ffd900;
+    border-style: solid;
+    width: 60%;
+}
+
+#scanner-page { text-align: center; }
+
+#logo-image { 
+    width: 15%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+}
+
+#loading-screen {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.fullscreen-box {
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+}
+
+#cycle-icon {
+    visibility: hidden;
+
+    z-index: 50;
+    position: absolute;
+    filter: invert(83%) sepia(24%) saturate(4375%) hue-rotate(359deg) brightness(109%) contrast(105%);
+    left: 1%;
+    top: 1%;
+    width: 50px;
+    height: 50px;
+}
